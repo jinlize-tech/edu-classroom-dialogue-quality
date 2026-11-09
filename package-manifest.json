@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-SK-086",
   "repository_name": "edu-classroom-dialogue-quality",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-classroom-dialogue-quality-v1.0.0.zip",
-  "sha256": "C2A1A32F858E2E4CD5EA5A52C69D1368B067FC92651FAF9288932E9961FE7D83",
-  "bytes": 40796,
+  "version": "1.0.1",
+  "package_path": "dist/edu-classroom-dialogue-quality-v1.0.1.zip",
+  "sha256": "BE0E2FA369B663E12D39C9111441524DC23CC0F50FFC3080A29687EC2D90C4B6",
+  "bytes": 41821,
   "entries": [
     "edu-classroom-dialogue-quality/README.md",
     "edu-classroom-dialogue-quality/PRODUCT_SPEC.md",
@@ -34,5 +34,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:04:39.005269+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-classroom-dialogue-quality-v1.0.0.zip",
+  "previous_package_sha256": "C2A1A32F858E2E4CD5EA5A52C69D1368B067FC92651FAF9288932E9961FE7D83",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }
