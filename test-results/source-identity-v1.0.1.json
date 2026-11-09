@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-SK-086",
+  "repository_name": "edu-classroom-dialogue-quality",
+  "version": "1.0.1",
+  "tested_source_commit": "6878f46e90257a22b80ecd45083bdf0a617efc59",
+  "tested_source_tree_sha": "63efacc5117fa633695144c56950871f9df7cbe0",
+  "package_path": "dist/edu-classroom-dialogue-quality-v1.0.1.zip",
+  "package_sha256": "BE0E2FA369B663E12D39C9111441524DC23CC0F50FFC3080A29687EC2D90C4B6",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 50,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": null
+}
