@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jinlize.tech/education/JLZ-EDU-SK-086/input.schema.json",
+  "title": "课堂对话与提问质量分析输入契约",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "transcript_redacted",
+    "grade_and_subject",
+    "learning_objectives",
+    "class_type",
+    "consent_status"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.2.0"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ],
+      "description": "输入资料的确认状态"
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "transcript_redacted": {
+      "title": "脱敏课堂转录",
+      "description": "以学生编号替代真实身份",
+      "type": "string",
+      "minLength": 1
+    },
+    "grade_and_subject": {
+      "title": "年级与学科",
+      "description": "用于专业规则校准",
+      "type": "string",
+      "minLength": 1
+    },
+    "learning_objectives": {
+      "title": "课堂目标",
+      "description": "用于判断提问与目标对齐",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "class_type": {
+      "title": "班型",
+      "description": "大班、小班、一对一或线上",
+      "type": "string",
+      "minLength": 1
+    },
+    "observation_focus": {
+      "title": "观察重点",
+      "description": "例如高阶层提问、候答时间或反馈",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "consent_status": {
+      "title": "录制与使用授权状态",
+      "description": "未获授权时应停止处理真实录音",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

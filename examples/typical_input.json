@@ -1,0 +1,16 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "transcript_redacted": "脱敏课堂转录已核对（脱敏示例）",
+  "grade_and_subject": "年级与学科已核对（脱敏示例）",
+  "learning_objectives": [
+    {}
+  ],
+  "class_type": "班型已核对（脱敏示例）",
+  "observation_focus": [
+    {}
+  ],
+  "consent_status": "已取得明确授权并完成脱敏"
+}

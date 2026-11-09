@@ -1,0 +1,91 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-SK-086",
+  "product_name": "课堂对话与提问质量分析",
+  "product_type": "Skill",
+  "repository_name": "edu-classroom-dialogue-quality",
+  "repository_url": "https://github.com/jinlize-tech/edu-classroom-dialogue-quality",
+  "product_version": "1.0.0",
+  "batch": 2,
+  "business_category": "10 教学质量与学习证据中心",
+  "high_risk": false,
+  "deterministic": false,
+  "agent": false,
+  "core_outputs": [
+    "课堂对话分析表",
+    "问题/追问片段",
+    "改进建议"
+  ],
+  "optional_outputs": [
+    "参与结构",
+    "证据摘要",
+    "下一次观察指标"
+  ],
+  "all_outputs": [
+    "课堂对话分析表",
+    "问题/追问片段",
+    "改进建议",
+    "参与结构",
+    "证据摘要",
+    "下一次观察指标"
+  ],
+  "human_review_required": false,
+  "reviewer_role": "业务负责人",
+  "commercial_boundary": null,
+  "input_required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "transcript_redacted",
+    "grade_and_subject",
+    "learning_objectives",
+    "class_type",
+    "consent_status"
+  ],
+  "input_properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ]
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "transcript_redacted": {
+      "type": "string"
+    },
+    "grade_and_subject": {
+      "type": "string"
+    },
+    "learning_objectives": {
+      "type": "array"
+    },
+    "class_type": {
+      "type": "string"
+    },
+    "observation_focus": {
+      "type": "array"
+    },
+    "consent_status": {
+      "type": "string"
+    }
+  },
+  "expected_scenario_count": 12,
+  "license": "Apache-2.0",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}

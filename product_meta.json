@@ -1,0 +1,31 @@
+{
+  "number": 86,
+  "product_id": "JLZ-EDU-SK-086",
+  "candidate_id": "CAND-011",
+  "chinese_name": "课堂对话与提问质量分析",
+  "english_name": "Classroom Dialogue Quality Analyzer",
+  "repository_name": "edu-classroom-dialogue-quality",
+  "repository_url": "https://github.com/jinlize-tech/edu-classroom-dialogue-quality",
+  "product_type": "Skill",
+  "category": "10 教学质量与学习证据中心",
+  "batch": 2,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "课堂对话分析表",
+    "问题/追问片段",
+    "改进建议"
+  ],
+  "optional_outputs": [
+    "参与结构",
+    "证据摘要",
+    "下一次观察指标"
+  ],
+  "high_risk": false,
+  "deterministic": false,
+  "scenario_count": 12,
+  "package_path": "dist/edu-classroom-dialogue-quality-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}
